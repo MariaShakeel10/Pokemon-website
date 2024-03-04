@@ -99,6 +99,7 @@
     color: whitesmoke;
     background-color: blue;
 }
+
 /* card 1st part */
 .card-main {
     display: flex;
@@ -106,8 +107,9 @@
     align-items: center;
     border-radius: 5px;
 }
-.card>p{
-    margin-top:0px;
+
+.card>p {
+    margin-top: 0px;
 }
 
 .card1 {
@@ -129,11 +131,13 @@
     padding: 5px;
 
 }
+
 .card-sub {
     margin-left: 10px;
     flex-direction: column;
     border-radius: 5px;
 }
+
 .card-sub img {
     height: 150px;
     margin-bottom: 0;
@@ -163,28 +167,112 @@
     width: 70%;
     height: 60px;
 }
+
 .card-main2 {
     display: flex;
     align-items: center;
-margin-top: 10px;
-margin-bottom: 0;
-margin-left: 33px;
-border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 33px;
+    border-radius: 5px;
 }
+
 .card-main2 img {
-height: 222px;
-width: 95%;
+    height: 222px;
+    width: 95%;
 }
-.card-main2 p{
+
+.card-main2 p {
     color: white;
     font-size: 20px;
     font-weight: lighter;
     width: 95%;
     height: 50px;
 }
+
 .card5>p {
-    background-color:#369143 ;
+    background-color: #369143;
 }
+
 .card6>p {
-    background-color:#1b53ba ;
+    background-color: #1b53ba;
+}
+
+/* slider */
+.slider {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+}
+
+/* card part2 */
+.card-main2-part {
+    /* background-color: #369143; */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-container2 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    margin: inherit;
+}
+
+.card-1 {
+    background-color: #B38AEA;
+    margin: 20px 10px 10px 20px;
+}
+
+.card-1>img,
+.card-2>img {
+    width: 320px;
+    height: 200px;
+    margin: 0;
+}
+
+.card-3>img,
+.card-4>img {
+    width: 340px;
+    height: 200px;
+    margin: 0;
+}
+
+.card-5>img,
+.card-6>img {
+    width: 335px;
+    height: 200px;
+    margin: 0;
+
+}
+
+.card-2 {
+    background-color: #313131;
+    margin: 10px;
+}
+
+.card-3 {
+    background-color: #ee6b2f;
+    margin: 10px;
+}
+
+.card-4 {
+    background-color: #1b53ba;
+    margin: 10px;
+}
+
+.card-5 {
+    background-color: #30a7d7;
+    margin: 20px 10px 10px 20px;
+}
+
+.card-6 {
+    background-color: #e6bc2f;
+    margin: 10px 20px 20px 10px;
+}
+
+.two:hover {
+    box-shadow: 10px 5px 5px gray;
 }
