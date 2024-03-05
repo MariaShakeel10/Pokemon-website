@@ -3,10 +3,12 @@
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+body {
+    background-color: black;
+}
 /* navbar */
 .navbar {
-    /* background-color: blue; */
+    background-color:white;
     font-size: 12px;
     width: 100%;
     border-bottom: 1px solid rgba(0, 0, 0, 0.35);
@@ -104,6 +106,7 @@
 .card-part1 {
     width: 90%;
     margin: 0 auto;
+    background-color: white;
 }
 
 .card-main {
@@ -214,7 +217,7 @@
 
 /* card part2 */
 .card-main2-part {
-    /* background-color: #369143; */
+    background-color: hsl(120, 100%, 100%);
     width: 90%;
     margin: 0 auto;
 }
